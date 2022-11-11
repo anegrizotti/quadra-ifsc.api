@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quadra-ifsc.ConsoleApp", "quadra-ifsc.ConsoleApp\quadra-ifsc.ConsoleApp.csproj", "{8464616A-2CC7-4EB5-B39D-AF0229AD3596}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Apresentação", "1- Apresentação", "{E218A5D6-DD95-4A64-BE5C-47DDD2E86A84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Distribuição", "2- Distribuição", "{6D4B6CDD-AC41-491D-BC7B-8E56222E3FA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Aplicação", "3- Aplicação", "{56534483-9FE0-4FBB-A119-84C453237F63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Dominio", "4- Dominio", "{7610F1B0-8BCD-41B1-B53E-B241DA796FB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Infra", "5- Infra", "{2597B5F9-EACA-46F7-800B-688FE0F8C1F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quadra-ifsc.Dominio", "quadra-ifsc.Dominio\quadra-ifsc.Dominio.csproj", "{090BEA96-7799-463B-A8FA-20934C30FC89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quadra-ifsc.Aplicacao", "quadra-ifsc.Aplicacao\quadra-ifsc.Aplicacao.csproj", "{1551D206-E133-4400-9DFA-9B22D2D04C2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quadra-ifsc.WebApi", "quadra-ifsc.WebApi\quadra-ifsc.WebApi.csproj", "{0ECE5050-5113-42FC-A8B1-22925958336D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quadra-ifsc.Configs", "quadra-ifsc.Configs\quadra-ifsc.Configs.csproj", "{17DC89F1-055C-4C1C-B3EB-5ADA3F6036E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configs", "Configs", "{ACD50FC6-7BBF-4455-90F0-A09BBFBDEC92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logs", "Logs", "{4FADF11F-3971-4AE4-BC7B-07AF9782394A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quadra-ifsc.Logs", "quadra-ifsc.Logs\quadra-ifsc.Logs.csproj", "{8B5EA9E0-DA93-44E5-AA07-DE4BCD972748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banco de Dados", "Banco de Dados", "{F2E9239F-83D9-428E-BCFD-D46A5B0FA70B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quadra-ifsc.Orm", "quadra-ifsc.Orm\quadra-ifsc.Orm.csproj", "{17060081-D2DA-467E-9F15-70C69053D365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8464616A-2CC7-4EB5-B39D-AF0229AD3596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8464616A-2CC7-4EB5-B39D-AF0229AD3596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8464616A-2CC7-4EB5-B39D-AF0229AD3596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8464616A-2CC7-4EB5-B39D-AF0229AD3596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090BEA96-7799-463B-A8FA-20934C30FC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090BEA96-7799-463B-A8FA-20934C30FC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090BEA96-7799-463B-A8FA-20934C30FC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090BEA96-7799-463B-A8FA-20934C30FC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1551D206-E133-4400-9DFA-9B22D2D04C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1551D206-E133-4400-9DFA-9B22D2D04C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1551D206-E133-4400-9DFA-9B22D2D04C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1551D206-E133-4400-9DFA-9B22D2D04C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECE5050-5113-42FC-A8B1-22925958336D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECE5050-5113-42FC-A8B1-22925958336D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECE5050-5113-42FC-A8B1-22925958336D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECE5050-5113-42FC-A8B1-22925958336D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DC89F1-055C-4C1C-B3EB-5ADA3F6036E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DC89F1-055C-4C1C-B3EB-5ADA3F6036E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DC89F1-055C-4C1C-B3EB-5ADA3F6036E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DC89F1-055C-4C1C-B3EB-5ADA3F6036E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5EA9E0-DA93-44E5-AA07-DE4BCD972748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5EA9E0-DA93-44E5-AA07-DE4BCD972748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5EA9E0-DA93-44E5-AA07-DE4BCD972748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5EA9E0-DA93-44E5-AA07-DE4BCD972748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17060081-D2DA-467E-9F15-70C69053D365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17060081-D2DA-467E-9F15-70C69053D365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17060081-D2DA-467E-9F15-70C69053D365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17060081-D2DA-467E-9F15-70C69053D365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8464616A-2CC7-4EB5-B39D-AF0229AD3596} = {E218A5D6-DD95-4A64-BE5C-47DDD2E86A84}
+		{090BEA96-7799-463B-A8FA-20934C30FC89} = {7610F1B0-8BCD-41B1-B53E-B241DA796FB3}
+		{1551D206-E133-4400-9DFA-9B22D2D04C2D} = {56534483-9FE0-4FBB-A119-84C453237F63}
+		{0ECE5050-5113-42FC-A8B1-22925958336D} = {6D4B6CDD-AC41-491D-BC7B-8E56222E3FA7}
+		{17DC89F1-055C-4C1C-B3EB-5ADA3F6036E3} = {ACD50FC6-7BBF-4455-90F0-A09BBFBDEC92}
+		{ACD50FC6-7BBF-4455-90F0-A09BBFBDEC92} = {2597B5F9-EACA-46F7-800B-688FE0F8C1F1}
+		{4FADF11F-3971-4AE4-BC7B-07AF9782394A} = {2597B5F9-EACA-46F7-800B-688FE0F8C1F1}
+		{8B5EA9E0-DA93-44E5-AA07-DE4BCD972748} = {4FADF11F-3971-4AE4-BC7B-07AF9782394A}
+		{F2E9239F-83D9-428E-BCFD-D46A5B0FA70B} = {2597B5F9-EACA-46F7-800B-688FE0F8C1F1}
+		{17060081-D2DA-467E-9F15-70C69053D365} = {F2E9239F-83D9-428E-BCFD-D46A5B0FA70B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EB8E393-BF5B-4119-8578-298195EAEB07}
+	EndGlobalSection
+EndGlobal

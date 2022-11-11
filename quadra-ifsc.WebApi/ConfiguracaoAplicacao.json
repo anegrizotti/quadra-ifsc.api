@@ -1,0 +1,11 @@
+{
+  "VersaoSistema": "2.0",
+
+  "ConfiguracaoLogs": {
+    "DiretorioSaida": "D:\\logs\\quadra-ifsc"
+  },
+
+  "ConnectionStrings": {
+    "SqlServer": "Data Source=(LOCALDB)\\MSSQLLOCALDB;Initial Catalog=quadra-ifsc;Integrated Security=True"
+  }
+}
